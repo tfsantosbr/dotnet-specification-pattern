@@ -16,6 +16,6 @@ public class ApproveRestaurantWithSpecificationAndResultHandler(
 
         restaurant.Status = RestaurantStatus.Approved;
 
-        return result;
+        return Result.Success();
     }
 }

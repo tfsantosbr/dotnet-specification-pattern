@@ -29,7 +29,7 @@ public class ApproveRestaurantWithSpecificationHandlerTests
     }
 
     [Fact]
-    public void Handle_RestaurantEligible_NotThrowsException()
+    public void Handle_RestaurantEligible_StatusChanged()
     {
         // arrange
         var restaurant = new Restaurant();
